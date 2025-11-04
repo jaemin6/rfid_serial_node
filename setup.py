@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'rfid_reader = rfid_serial_node.rfid_reader:main'
         ],
     },
 )
