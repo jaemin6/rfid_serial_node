@@ -70,5 +70,5 @@ def main(args=None):
         rfid_reader_node.destroy_node()
         rclpy.shutdown()
 
-if __name__ == '__main__":
+if __name__ == "__main__":
     main()
